@@ -1,0 +1,1385 @@
+
+
+
+  /* Large devices (laptops/desktops, 1024px) */
+  
+  @media (min-width: 1024px)  {
+ 
+
+body {
+    position: relative;
+  }
+
+    #navbarSupportedContent {
+      font-size: 1.2rem;
+    }
+
+    .jumbotron {
+      background-image: url('images/cover2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      background-position: center;
+      text-align: center;
+      margin-top: 4em;
+      color: rgb(255, 255, 255); 
+    }
+
+    .firstBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 50%;
+      margin: auto;
+      padding: 1em;
+      font-size: 3em;
+    }
+    
+    #arrow-icon {
+      align-content: center;
+      color: rgb(5, 5, 5);
+      position: relative;
+      margin: auto;
+      width: 2%;
+      margin-bottom: -2.4em;
+    }
+
+    .fa-umbrella {
+      color: rgb(255, 166, 0);
+      width: 2em;
+  
+    }
+
+
+    .title-field {
+      color: #f0b30d;
+      font-size: 7em;
+      font-family: 'carrois gothic sc';
+      font-weight: bold;
+      padding-top: 1em;
+      padding-bottom: -1em;
+      margin-bottom: -0.3em;
+      
+    }
+    
+    .title-field2 {
+      color: #ffffff;
+      font-size: 1em;
+      font-family: 'carrois gothic sc';
+      padding-top: 2em;
+      padding-bottom: 9em;
+      margin-bottom: 2em;
+      width: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;    
+    }
+
+
+    #container-cards {
+      margin: 8em 9em 6em 8em;
+    }
+
+    #number1 {
+      display: block;
+      margin-top: 15%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+    }
+
+    .card-title {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .card-text {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+    }
+
+    #number1-button {
+      margin-top: 1em;
+      position: relative;
+      display: block;
+    }
+
+    #carousel-container-main {
+      display: inline-block;
+      width: 90%;
+    }  
+
+
+    #carousel-container {
+      width: 40%;
+      border-style: double; 
+      border-color: #b1b1b1;  
+      margin-left: 10em;
+      margin-bottom: 8rem;
+      float: left; 
+    }
+    
+    #carousel-text {
+      text-align: center;
+      padding: 4em;
+      font-size: 1.9em;
+      font-family: 'carrois gothic sc';
+    }
+
+    .secondBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 60%;
+      margin: auto;
+      padding: 1em;
+      font-size: 2.5em;
+    }
+
+
+    .card {
+      position: relative;
+      display: flex;
+      padding: 6%;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      box-shadow: 0 0 7em 0 rgb(142, 142, 143);
+  }
+  
+  .media img {
+      width: 3.5em;
+      height: 3.5em;
+  }
+  
+
+  #form {
+    margin-top: 5em;
+    border-radius: 1em;
+    background-color: #b9b9b9;
+    padding: 3em;
+    max-width: 60em;
+    border: 1px solid #030303;
+    margin-left: 5em;
+    text-align: center;
+}
+
+  #formH2 {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+  #formP {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+
+  label {
+    width: 100%;
+    font-weight: bold;
+    padding-top: 0.5em;
+    color: #000000;
+    font-family: 'carrois gothic sc';
+    text-align: left;
+    margin-left: 15em;
+    
+  }
+
+  input, select {
+    padding: 0.7em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #4e4e4e;
+    border-radius: 0.4em;
+    width:25em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+    #footer {
+      background-color: #343A40;
+      padding-top: 6em;
+      padding-bottom: 6em;
+      margin-top: 5em;
+      margin-bottom: 2em;
+      text-align: center;
+      border-radius: 1em;
+      box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+    }
+
+    #footer_title {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 2.5em;
+    }
+
+    #footer-text {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 0.9em;
+    }
+    
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  body {
+    position: relative;
+  }
+
+    #navbarSupportedContent {
+      font-size: 1.2rem;
+    }
+
+    .jumbotron {
+      background-image: url('images/cover2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      background-position: center;
+      text-align: center;
+      margin-top: 4em;
+      color: rgb(255, 255, 255); 
+    }
+
+    .firstBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 50%;
+      margin: auto;
+      padding: 1em;
+      font-size: 3em;
+    }
+    
+    #arrow-icon {
+      align-content: center;
+      color: rgb(5, 5, 5);
+      position: relative;
+      margin: auto;
+      width: 2%;
+      margin-bottom: -2.4em;
+    }
+
+    .fa-umbrella {
+      color: rgb(255, 166, 0);
+      width: 2em;
+  
+    }
+
+
+    .title-field {
+      color: #f0b30d;
+      font-size: 7em;
+      font-family: 'carrois gothic sc';
+      font-weight: bold;
+      padding-top: 1em;
+      padding-bottom: -1em;
+      margin-bottom: -0.3em;
+      
+    }
+    
+    .title-field2 {
+      color: #ffffff;
+      font-size: 1em;
+      font-family: 'carrois gothic sc';
+      padding-top: 2em;
+      padding-bottom: 9em;
+      margin-bottom: 2em;
+      width: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;    
+    }
+
+
+    #container-cards {
+      margin: 8em 4em 6em 4em;
+    }
+
+    #number1 {
+      display: block;
+      margin-top: 15%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+    }
+
+    .card-title {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .card-text {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+    }
+
+    #number1-button {
+      margin-top: 1em;
+      position: relative;
+      display: block;
+      font-size: small;
+    }
+
+    #carousel-container-main {
+      display: inline-block;
+      width: 100%;
+    }  
+
+
+    #carousel-container {
+      width: 40%;
+      border-style: double; 
+      border-color: #b1b1b1;  
+      margin-left: 6em;
+      margin-bottom: 8rem;
+      float: left; 
+    }
+    
+    #carousel-text {
+      text-align: center;
+      padding: 3em;
+      font-size: 1.8em;
+      font-family: 'carrois gothic sc';
+    }
+
+    .secondBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 60%;
+      margin: auto;
+      padding: 1em;
+      font-size: 2.5em;
+    }
+
+
+    .card {
+      position: relative;
+      display: flex;
+      padding: 6%;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      box-shadow: 0 0 7em 0 rgb(142, 142, 143);
+  }
+  
+  .media img {
+      width: 3.5em;
+      height: 3.5em;
+  }
+  
+
+  #form {
+    margin-top: 5em;
+    border-radius: 1em;
+    background-color: #b9b9b9;
+    padding: 2em;
+    max-width: 40em;
+    border: 1px solid #030303;
+    margin-left: 8em;
+    text-align: center;
+}
+
+  #formH2 {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+  #formP {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+
+  label {
+    width: 100%;
+    font-weight: bold;
+    padding-top: 0.5em;
+    color: #000000;
+    font-family: 'carrois gothic sc';
+    text-align: left;
+    margin-left: 6em;
+    
+  }
+
+  input, select {
+    padding: 0.7em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #4e4e4e;
+    border-radius: 0.4em;
+    width:25em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+    #footer {
+      background-color: #343A40;
+      padding-top: 6em;
+      padding-bottom: 6em;
+      margin-top: 5em;
+      margin-bottom: 2em;
+      text-align: center;
+      border-radius: 1em;
+      box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+    }
+
+    #footer_title {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 2.5em;
+    }
+
+    #footer-text {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 0.9em;
+    }
+
+
+}
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+ 
+  body {
+    position: relative;
+  }
+
+    #navbarSupportedContent {
+      font-size: 1.2rem;
+    }
+
+    .jumbotron {
+      background-image: url('images/cover2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      background-position: center;
+      text-align: center;
+      margin-top: 4em;
+      color: rgb(255, 255, 255); 
+    }
+
+    .firstBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 50%;
+      margin: auto;
+      padding: 1em;
+      font-size: 3em;
+    }
+    
+    #arrow-icon {
+      align-content: center;
+      color: rgb(5, 5, 5);
+      position: relative;
+      margin: auto;
+      width: 2%;
+      margin-bottom: -2.4em;
+    }
+
+    .fa-umbrella {
+      color: rgb(255, 166, 0);
+      width: 2em;
+  
+    }
+
+    .title-field {
+      color: #f0b30d;
+      font-size: 7em;
+      font-family: 'carrois gothic sc';
+      font-weight: bold;
+      padding-top: 1em;
+      padding-bottom: -1em;
+      margin-bottom: -0.3em;
+      
+    }
+    
+    .title-field2 {
+      color: #ffffff;
+      font-size: 1em;
+      font-family: 'carrois gothic sc';
+      padding-top: 2em;
+      padding-bottom: 9em;
+      margin-bottom: 2em;
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;    
+    }
+
+
+    #container-cards {
+      margin: 7em 1em 7em 1em; 
+    }
+
+    #number1 {
+      display: block;
+      margin-top: 15%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+    }
+
+    .card-title {
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+
+    .card-text {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 0.6rem;
+    }
+
+    #number1-button {
+      margin-top: 1em;
+      position: relative;
+      display: block;
+      font-size: 0.8em;
+    }
+
+    #carousel-container-main {
+      display: inline-block;
+      width: 100%;
+    }  
+
+
+    #carousel-container {
+      width: 40%;
+      border-style: double; 
+      border-color: #b1b1b1;  
+      margin-left: 2em;
+      margin-bottom: 8rem;
+      float: left; 
+    }
+    
+    #carousel-text {
+      text-align: center;
+      padding: 2em;
+      font-size: 1.9em;
+      font-family: 'carrois gothic sc';
+    }
+
+    .secondBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 60%;
+      margin: auto;
+      padding: 1em;
+      font-size: 2.5em;
+    }
+
+
+    .card {
+      position: relative;
+      display: flex;
+      padding: 6%;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      box-shadow: 0 0 7em 0 rgb(142, 142, 143);
+  }
+  
+  .media img {
+      width: 3.5em;
+      height: 3.5em;
+  }
+  
+
+  #form {
+    margin-top: 5em;
+    border-radius: 1em;
+    background-color: #b9b9b9;
+    padding: 3em;
+    max-width: 60em;
+    border: 1px solid #030303;
+    
+    text-align: center;
+}
+
+  #formH2 {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+  #formP {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+
+  label {
+    width: 100%;
+    font-weight: bold;
+    padding-top: 0.5em;
+    color: #000000;
+    font-family: 'carrois gothic sc';
+    text-align: left;
+    margin-left: 6.5em;
+    
+  }
+
+  input, select {
+    padding: 0.7em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #4e4e4e;
+    border-radius: 0.4em;
+    width:25em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+    #footer {
+      background-color: #343A40;
+      padding-top: 6em;
+      padding-bottom: 6em;
+      margin-top: 5em;
+      margin-bottom: 2em;
+      text-align: center;
+      
+      border-radius: 1em;
+      box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+    }
+
+    #footer_title {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 2.5em;
+    }
+
+    #footer-text {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 0.9em;
+    } 
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles
+  ##Screen = B/w 414px to 767px
+*/
+
+@media (min-width: 540px) and (max-width: 767px) {
+  
+
+  body {
+    position: relative;
+  }
+
+    #navbarSupportedContent {
+      font-size: 1.2rem;
+    }
+
+    .jumbotron {
+      background-image: url('images/cover2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      background-position: center;
+      text-align: center;
+      margin-top: 4em;
+      color: rgb(255, 255, 255); 
+    }
+
+    .search {
+      display: none;
+    }
+    
+    .firstBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 50%;
+      margin: auto;
+      padding: 1em;
+      font-size: 2.5em;
+    }
+    
+    #arrow-icon {
+      align-content: center;
+      color: rgb(5, 5, 5);
+      position: relative;
+      margin: auto;
+      width: 2%;
+      margin-bottom: -2.4em;
+    }
+
+    .fa-umbrella {
+      color: rgb(255, 166, 0);
+      width: 2em;
+  
+    }
+
+    .title-field {
+      color: #f0b30d;
+      font-size: 7em;
+      font-family: 'carrois gothic sc';
+      font-weight: bold;
+      padding-top: 1em;
+      padding-bottom: -1em;
+      margin-bottom: -0.3em;
+      
+    }
+    
+    .title-field2 {
+      color: #ffffff;
+      font-size: 1em;
+      font-family: 'carrois gothic sc';
+      padding-top: 2em;
+      padding-bottom: 9em;
+      margin-bottom: 2em;
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;    
+    }
+
+
+    #container-cards {
+      margin: 7em 1em 7em 1em; 
+    }
+
+    #number1 {
+      display: block;
+      margin-top: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+      margin-bottom: -10%;
+    }
+
+    .card-title {
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: bold;
+    }
+
+    .card-text {
+      text-align: center;
+      font-size: 0.5rem;
+    }
+
+    #number1-button {
+      margin-top: 1em;
+      position: relative;
+      display: block;
+      font-size: 0.4em;
+    }
+
+    #carousel-container-main {
+      display: inline-block;
+      width: 100%;
+    }  
+
+
+    #carousel-container {
+      width: 40%;
+      border-style: double; 
+      border-color: #b1b1b1;  
+      margin-left: 2em;
+      margin-bottom: 8rem;
+      float: left; 
+    }
+    
+    #carousel-text {
+      text-align: center;
+      padding: 2em;
+      font-size: 1.4em;
+      font-family: 'carrois gothic sc';
+    }
+
+    .secondBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 60%;
+      margin: auto;
+      padding: 1em;
+      font-size: 2.5em;
+    }
+
+
+    .card {
+      position: relative;
+      display: flex;
+      padding: 6%;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      box-shadow: 0 0 7em 0 rgb(142, 142, 143);
+  }
+  
+  .media img {
+      width: 3.5em;
+      height: 3.5em;
+  }
+  
+
+  #form {
+    margin-top: 5em;
+    border-radius: 1em;
+    background-color: #b9b9b9;
+    padding: 3em;
+    max-width: 60em;
+    border: 1px solid #030303;
+    
+    text-align: center;
+}
+
+  #formH2 {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+  #formP {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+
+  label {
+    width: 100%;
+    font-weight: bold;
+    padding-top: 0.5em;
+    color: #000000;
+    font-family: 'carrois gothic sc';
+    text-align: left;
+    margin-left: 0.5em;
+    
+  }
+
+  input, select {
+    padding: 0.7em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #4e4e4e;
+    border-radius: 0.4em;
+    width:25em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+    #footer {
+      background-color: #343A40;
+      padding-top: 6em;
+      padding-bottom: 6em;
+      margin-top: 5em;
+      margin-bottom: 2em;
+      text-align: center;
+      border-radius: 1em;
+      box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+    }
+
+    #footer_title {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 2.5em;
+    }
+
+    #footer-text {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 0.9em;
+    } 
+}
+
+
+@media (min-width: 481px) and (max-width: 539px) {
+  
+
+  body {
+    position: relative;
+  }
+
+    #navbarSupportedContent {
+      font-size: 1.2rem;
+    }
+
+    .jumbotron {
+      background-image: url('images/cover2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      background-position: center;
+      text-align: center;
+      margin-top: 10em;
+      color: rgb(255, 255, 255); 
+    }
+
+    .search {
+      display: none;
+    }
+
+    .firstBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 50%;
+      margin: auto;
+      padding: 1em;
+      font-size: 1.5em;
+    }
+    
+    #arrow-icon {
+      align-content: center;
+      color: rgb(5, 5, 5);
+      position: relative;
+      margin: auto;
+      width: 1%;
+      margin-bottom: -2.4em;
+    }
+
+    .fa-umbrella {
+      color: rgb(255, 166, 0);
+      width: 2em;
+  
+    }
+
+    .title-field {
+      color: #f0b30d;
+      font-size: 4em;
+      font-family: 'carrois gothic sc';
+      font-weight: bold;
+      padding-top: 1em;
+      padding-bottom: -1em;
+      margin-bottom: -0.3em;
+      
+    }
+    
+    .title-field2 {
+      color: #ffffff;
+      font-size: 0.7em;
+      font-family: 'carrois gothic sc';
+      padding-top: 2em;
+      padding-bottom: 9em;
+      margin-bottom: 2em;
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;    
+    }
+
+
+    #container-cards {
+      margin: 7em 0.7em 7em 0.7em; 
+    }
+
+    #number1 {
+      display: block;
+      margin-top: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+      margin-bottom: -10%;
+    }
+
+    .card-title {
+      text-align: center;
+      font-size: 0.5rem;
+      font-weight: bold;
+    }
+
+    .card-text {
+      text-align: center;
+      font-size: 0.4rem;
+    }
+
+    #number1-button {
+      margin-top: 1em;
+      position: relative;
+      display: block;
+      font-size: 0.2em;
+    }
+
+    #carousel-container-main {
+      display: inline-block;
+      width: 100%;
+    }  
+
+
+    #carousel-container {
+      width: 45%;
+      border-style: double; 
+      border-color: #b1b1b1;  
+      margin-left: 2em;
+      margin-bottom: 8rem;
+      float: left; 
+    }
+    
+    #carousel-text {
+      text-align: center;
+      padding: 2em;
+      font-size: 1em;
+      font-family: 'carrois gothic sc';
+    }
+
+    .secondBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 60%;
+      margin: auto;
+      padding: 1em;
+      font-size: 2.5em;
+    }
+
+
+    .card {
+      position: relative;
+      display: flex;
+      padding: 6%;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      box-shadow: 0 0 7em 0 rgb(142, 142, 143);
+  }
+  
+  .media img {
+      width: 3.5em;
+      height: 3.5em;
+  }
+  
+
+  #form {
+    margin-top: 5em;
+    border-radius: 1em;
+    background-color: #b9b9b9;
+    padding: 3em;
+    max-width: 60em;
+    border: 1px solid #030303;
+    text-align: center;
+}
+
+  #formH2 {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+  #formP {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+
+  label {
+    width: 100%;
+    font-weight: bold;
+    padding-top: 0.5em;
+    color: #000000;
+    font-family: 'carrois gothic sc';
+    text-align: left;
+    margin-left: 1em;
+    
+  }
+
+  input, select {
+    padding: 0.7em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #4e4e4e;
+    border-radius: 0.4em;
+    width:20em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+    #footer {
+      background-color: #343A40;
+      padding-top: 6em;
+      padding-bottom: 6em;
+      margin-top: 5em;
+      margin-bottom: 2em;
+      text-align: center;
+      border-radius: 1em;
+      box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+    }
+
+    #footer_title {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 2.5em;
+    }
+
+    #footer-text {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 0.9em;
+    } 
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+  body {
+    position: relative;
+  }
+
+    #navbarSupportedContent {
+      font-size: 1rem;
+    }
+
+    .jumbotron {
+      background-image: url('images/cover2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      background-position: center;
+      text-align: center;
+      margin-top: em;
+      color: rgb(255, 255, 255); 
+    }
+
+    .search {
+      display: none;
+    }
+
+    .firstBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 50%;
+      margin: auto;
+      padding: 1em;
+      font-size: 1.5em;
+    }
+    
+    #arrow-icon {
+      align-content: center;
+      color: rgb(5, 5, 5);
+      position: relative;
+      margin: auto;
+      width: 1%;
+      margin-bottom: -2.4em;
+    }
+
+    .fa-umbrella {
+      color: rgb(255, 166, 0);
+      width: 2em;
+  
+    }
+
+    .title-field {
+      color: #f0b30d;
+      font-size: 4em;
+      font-family: 'carrois gothic sc';
+      font-weight: bold;
+      padding-top: 1em;
+      padding-bottom: -1em;
+      margin-bottom: -0.3em;
+      
+    }
+    
+    .title-field2 {
+      color: #ffffff;
+      font-size: 0.7em;
+      font-family: 'carrois gothic sc';
+      padding-top: 2em;
+      padding-bottom: 9em;
+      margin-bottom: 2em;
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;    
+    }
+
+
+    #container-cards {
+      margin: 7em 0.7em 5em 0.7em; 
+    }
+
+    .card {
+      position: relative;
+      display: flex;
+      padding: 3%;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      box-shadow: 0 0 7em 0 rgb(142, 142, 143);
+  }
+
+    #number1 {
+      display: block;
+      margin-top: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+      margin-bottom: -10%;
+    }
+
+    .card-title {
+      text-align: center;
+      font-size: 0.5rem;
+      font-weight: bold;
+      display: none;
+    }
+
+    .card-text {
+      text-align: center;
+      font-size: 0.4rem;
+      display: none;
+    }
+
+    #number1-button {
+      margin-top: 1em;
+      position: relative;
+      display: block;
+      font-size: 0em;
+      
+    }
+
+    #carousel-container-main {
+      display: inline-block;
+      width: 100%;
+    }  
+
+
+    #carousel-container {
+      width: 45%;
+      border-style: double; 
+      border-color: #b1b1b1;  
+      margin-left: 2em;
+      margin-bottom: 8rem;
+      float: left; 
+    }
+    
+    #carousel-text {
+      text-align: center;
+      padding: 2em;
+      font-size: 0.7em;
+      font-family: 'carrois gothic sc';
+    }
+
+    .secondBox {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      width: 60%;
+      margin: auto;
+      padding: 1em;
+      font-size: 2.5em;
+      margin-bottom: 2em;
+    }
+
+  
+  .media img {
+      width: 3.5em;
+      height: 3.5em;
+  }
+  
+
+  #form {
+    margin-top: 5em;
+    border-radius: 1em;
+    background-color: #b9b9b9;
+    padding: 3em;
+    max-width: 60em;
+    border: 1px solid #030303;
+    text-align: center;
+}
+
+  #formH2 {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+  #formP {
+    color: #4e4e4e;
+    font-family: 'carrois gothic sc';
+    text-align: center;
+  }
+
+
+  label {
+    width: 100%;
+    font-weight: bold;
+    padding-top: 0.5em;
+    color: #000000;
+    font-family: 'carrois gothic sc';
+    text-align: left;
+    margin-left: 0.5em;
+    
+  }
+
+  input, select {
+    padding: 0.7em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #4e4e4e;
+    border-radius: 0.4em;
+    width:14em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+    #footer {
+      background-color: #343A40;
+      padding-top: 6em;
+      padding-bottom: 6em;
+      margin-top: 5em;
+      margin-bottom: 2em;
+      text-align: center;
+      border-radius: 1em;
+      box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+    }
+
+    #footer_title {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 1.7em;
+    }
+
+    #footer-text {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 0.5em;
+    } 
+}
