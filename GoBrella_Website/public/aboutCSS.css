@@ -1,0 +1,1274 @@
+
+ /* Large devices (laptops/desktops, 1024px) */
+  
+ @media (min-width: 1200px)  {
+
+  /* #containerForm {
+    width: 50%;
+    float: left;
+    margin-left: 8em;
+    box-shadow: 0 0 9em 0 rgb(142, 142, 143);
+    background-color: rgb(207, 207, 207);
+    padding: 2em;
+    border-radius: 2em;
+    border-style: double;
+}
+
+
+
+#contactTitle {
+    font-size: 3em;
+    margin-bottom: 0.6em;
+    font-family: 'carrois gothic sc';
+}
+
+#tableTitle{
+    font-size: 3em;
+    margin-bottom: 0.6em;
+    font-family: 'carrois gothic sc';
+} */
+
+
+
+
+.jumbotronAbout {
+    background-image: url('images/cover3_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 12em;
+    color: rgb(255, 255, 255); 
+    box-shadow: 3em 3em 16em 3em rgb(161, 163, 164);
+  }
+
+  .fa-umbrella {
+    color: rgb(255, 166, 0);
+    width: 2em;
+
+  }
+
+  .title-field-About {
+    color: #f0b30d;
+    font-size: 8em;
+    font-family: 'carrois gothic sc';
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: -1em;
+    margin-bottom: -0.3em;
+    
+  }
+
+  
+  .title-field2-About {
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'carrois gothic sc';
+    padding-top: 2em;
+    padding-bottom: 9em;
+    margin-bottom: 2em;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+  }
+
+  #carousel-text-about {
+    text-align: center;
+    padding: 5em;
+    font-size: 1.5em;
+    font-family: 'carrois gothic sc';
+    width: 85%; 
+    
+  }
+
+  #carousel-container-main-about {
+    display: inline-block;
+    width: 100%; 
+  }  
+
+  #carousel-container-about {
+    width: 35%;
+    border-style: double; 
+    border-color: #b1b1b1;  
+    margin-left: 7em;
+    margin-bottom: 8rem;
+    float: left; 
+    margin-right: 8em;
+    box-shadow: 3em 1em 16em 3em rgb(179, 179, 179);
+  }
+
+  #container-cards-about {
+    align-items: center;
+    padding: 5em;
+    margin-left: 8em;
+    width: 80%;
+  }
+
+  #number1-about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-style: double;
+  }
+
+  .card-about {
+    position: relative;
+    display: flex;
+    margin-left: 6em;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    width: 150%;
+}
+
+.card-about2 {
+  position: relative;
+  display: flex;
+  margin-left: 20em;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+  width: 150%;
+}
+
+  .card-title-about {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .card-text-about {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+
+  #form-container {
+    padding:auto;
+    margin:auto;
+    text-align:centre;
+    width: 60%;
+    margin-top: 8%;
+    margin-bottom: 10em;
+   
+  }
+
+  #formAbout-text {
+    margin-left: 0em;
+  }
+
+  
+
+  
+
+  .validationDefault01 {
+      color: #f0b30d;
+  }
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+}
+.footerAbout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+.footerMain {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    body {
+      margin-bottom: 500px;
+    }
+    .footer {
+      height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+.container-footer {
+    margin-top: 32em;
+    margin-bottom: -4em;
+}
+
+ }
+
+
+ @media (min-width: 992px) and (max-width: 1199px) { 
+    
+    .jumbotronAbout {
+        background-image: url('images/cover3_.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        background-position: center;
+        text-align: center;
+        margin-top: 4em;
+        color: rgb(255, 255, 255); 
+      }
+
+      .fa-umbrella {
+        color: rgb(255, 166, 0);
+        width: 2em;
+    
+      }
+
+      .title-field-About {
+        color: #f0b30d;
+        font-size: 8em;
+        font-family: 'carrois gothic sc';
+        font-weight: bold;
+        padding-top: 1em;
+        padding-bottom: -1em;
+        margin-bottom: -0.3em;
+        
+      }
+      .title-field2-About {
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'carrois gothic sc';
+        padding-top: 2em;
+        padding-bottom: 9em;
+        margin-bottom: 2em;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+      }
+      #carousel-text-about {
+        text-align: center;
+        padding: 5em;
+        font-size: 1.1em;
+        font-family: 'carrois gothic sc';
+        width: 90%; 
+        
+      }
+    
+      #carousel-container-main-about {
+        display: inline-block;
+        width: 100%; 
+      }  
+    
+      #carousel-container-about {
+        width: 35%;
+        border-style: double; 
+        border-color: #b1b1b1;  
+        margin-left: 7em;
+        margin-bottom: 8rem;
+        float: left; 
+        margin-right: 8em;
+        box-shadow: 3em 1em 16em 3em rgb(179, 179, 179);
+      }
+
+      #container-cards-about {
+        align-items: center;
+        padding: 3em;
+        margin-left: 4em;
+        width: 90%;
+      }
+    
+      #number1-about {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-style: double;
+      }
+    
+      .card-about {
+        position: relative;
+        display: flex;
+        margin-left: 6em;
+        flex-direction: column;
+        word-wrap: break-word;
+        background-color: #fff;
+        width: 150%;
+    }
+    
+    .card-about2 {
+      position: relative;
+      display: flex;
+      margin-left: 20em;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      width: 150%;
+    }
+    
+      .card-title-about {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    
+      .card-text-about {
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 0.6rem;
+      }
+    
+      #form-container {
+        padding:auto;
+        margin:auto;
+        text-align:centre;
+        width: 60%;
+        margin-top: 10%;
+        margin-bottom: 25%;
+       
+      }
+
+      #formAbout-text {
+        margin-left: 0em;
+      }
+
+      
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+  margin-top: 5em;
+}
+.footerAbout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+.footerMain {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    body {
+      margin-bottom: 500px;
+    }
+    .footer {
+      height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+.container-footer {
+    margin-top: 28em;
+    margin-bottom: -2em;
+}
+
+
+  }
+
+ @media (min-width: 768px) and (max-width: 991px) { 
+
+    .jumbotronAbout {
+        background-image: url('images/cover3_.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        background-position: center;
+        text-align: center;
+        margin-top: 4em;
+        color: rgb(255, 255, 255); 
+      }
+
+      .fa-umbrella {
+        color: rgb(255, 166, 0);
+        width: 2em;
+    
+      }
+
+
+      .title-field-About {
+        color: #f0b30d;
+        font-size: 6em;
+        font-family: 'carrois gothic sc';
+        font-weight: bold;
+        padding-top: 1em;
+        padding-bottom: -1em;
+        margin-bottom: -0.3em;
+        
+      }
+      .title-field2-About {
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'carrois gothic sc';
+        padding-top: 2em;
+        padding-bottom: 9em;
+        margin-bottom: 2em;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+      }
+      #carousel-text-about {
+        text-align: center;
+        padding: 5em;
+        font-size: 0.9em;
+        font-family: 'carrois gothic sc';
+        width: 96%; 
+        
+      }
+    
+      #carousel-container-main-about {
+        display: inline-block;
+        width: 100%; 
+      }  
+    
+      #carousel-container-about {
+        width: 35%;
+        border-style: double; 
+        border-color: #b1b1b1;  
+        margin-left: 7em;
+        margin-bottom: 8rem;
+        float: left; 
+        margin-right: 8em;
+        box-shadow: 3em 1em 16em 3em rgb(179, 179, 179);
+      }
+
+      #container-cards-about {
+        align-items: center;
+        margin-left: 3em;
+        width: 80%;
+      }
+    
+      #number1-about {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-style: double;
+      }
+    
+      .card-about {
+        position: relative;
+        display: flex;
+        margin-left: 6em;
+        flex-direction: column;
+        word-wrap: break-word;
+        background-color: #fff;
+        width: 150%;
+    }
+    
+    .card-about2 {
+      position: relative;
+      display: flex;
+      margin-left: 20em;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      width: 150%;
+    }
+    
+      .card-title-about {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    
+      .card-text-about {
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 0.6rem;
+      }
+    
+      #form-container {
+        padding:auto;
+        margin:auto;
+        text-align:centre;
+        width: 60%;
+        margin-top: 10%;
+        margin-bottom: 25%;
+       
+      }
+
+      #formAbout-text {
+        margin-left: 0em;
+      }
+
+      @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+      body {
+          font-family: 'Alegreya Sans', sans-serif;
+      }
+      
+      /* Sticky footer position and size
+      -------------------------------------------------- */
+      html {
+        position: relative;
+        min-height: 100%;
+      }
+      body {
+        /* Margin bottom by footer height */
+        margin-bottom: 300px;
+      }
+      .footerAbout {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 300px;
+      }
+
+      .footerMain {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 300px;
+      }
+      
+      /* Taller footer on small screens */
+      @media (max-width: 34em) {
+          body {
+            margin-bottom: 500px;
+          }
+          .footer {
+            height: 500px;
+          }
+      }
+      
+      /* Sticky footer style and color
+      -------------------------------------------------- */
+      footer {
+        padding-top: 30px;
+        background-color: #292c2f;
+        color: #bbb;
+      }
+      
+      footer a {
+        color: #999;
+        text-decoration:none;
+      }
+      
+      footer a:hover, footer a:focus {
+        color: #aaa;
+        text-decoration:none;
+        border-bottom:1px dotted #999;
+      }
+      
+      footer .form-control {
+          background-color: #1f2022;
+          box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+          border: none;
+          resize: none;
+          color: #d1d2d2;
+          padding: 0.7em 1em;
+      }
+      .container-footer {
+        margin-top: 27em;
+        margin-bottom: -2em;
+    }
+    
+  }
+
+ @media (min-width: 540px) and (max-width: 767px) { 
+
+    
+    .jumbotronAbout {
+        background-image: url('images/cover3_.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        background-position: center;
+        text-align: center;
+        margin-top: 4em;
+        color: rgb(255, 255, 255); 
+      }
+
+      .fa-umbrella {
+    color: rgb(255, 166, 0);
+    width: 2em;
+
+  }
+
+
+    .title-field-About {
+        color: #f0b30d;
+        font-size: 5em;
+        font-family: 'carrois gothic sc';
+        font-weight: bold;
+        padding-top: 1em;
+        padding-bottom: -1em;
+        margin-bottom: -0.3em;
+        
+      }
+      .title-field2-About {
+        color: #ffffff;
+        font-size: 0.8em;
+        font-family: 'carrois gothic sc';
+        padding-top: 2em;
+        padding-bottom: 9em;
+        margin-bottom: 2em;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+      }
+      #carousel-text-about {
+        text-align: center;
+        padding: 5em;
+        font-size: 0.8em;
+        font-family: 'carrois gothic sc';
+        width: 100%; 
+        
+      }
+    
+      #carousel-container-main-about {
+        display: inline-block;
+        width: 100%; 
+      }  
+    
+      #carousel-container-about {
+        width: 35%;
+        border-style: double; 
+        border-color: #b1b1b1;  
+        margin-left: 5em;
+        margin-bottom: 8rem;
+        float: left; 
+        margin-right: 3em;
+        box-shadow: 3em 1em 16em 3em rgb(179, 179, 179);
+      }
+
+      #container-cards-about {
+        align-items: center;
+        margin-left: 1em;
+        width: 40%;
+      }
+    
+      #number1-about {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-style: double;
+      }
+    
+      .card-about {
+        position: relative;
+        display: flex;
+        margin-left: 6em;
+        flex-direction: column;
+        word-wrap: break-word;
+        background-color: #fff;
+        width: 150%;
+    }
+    
+    .card-about2 {
+      position: relative;
+      display: flex;
+      margin-left: 15em;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      width: 150%;
+    }
+    
+      .card-title-about {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+    
+      .card-text-about {
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 0.6rem;
+      }
+    
+      #form-container {
+        padding:auto;
+        margin:auto;
+        text-align:centre;
+        width: 60%;
+        margin-top: 10%;
+        margin-bottom: 25%;
+       
+      }
+
+      #formAbout-text {
+        margin-left: 0em;
+      }
+  
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+}
+.footerAbout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+.footerMain {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    body {
+      margin-bottom: 500px;
+    }
+    .footer {
+      height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+.container-footer {
+    margin-top: 26em;
+    margin-bottom: -2em;
+}
+
+  }
+
+ @media (min-width: 481px) and (max-width: 539px) {
+
+    .jumbotronAbout {
+        background-image: url('images/cover3_.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        background-position: center;
+        text-align: center;
+        margin-top: 4em;
+        color: rgb(255, 255, 255); 
+      }
+
+      .fa-umbrella {
+    color: rgb(255, 166, 0);
+    width: 2em;
+
+  }
+
+    .title-field-About {
+        color: #f0b30d;
+        font-size: 5em;
+        font-family: 'carrois gothic sc';
+        font-weight: bold;
+        padding-top: 1em;
+        padding-bottom: -1em;
+        margin-bottom: -0.3em;
+        
+      }
+      .title-field2-About {
+        color: #ffffff;
+        font-size: 0.7em;
+        font-family: 'carrois gothic sc';
+        padding-top: 2em;
+        padding-bottom: 9em;
+        margin-bottom: 2em;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+      }
+      #carousel-text-about {
+        text-align: center;
+        padding: 5em;
+        font-size: 1.7em;
+        font-family: 'carrois gothic sc';
+        width: 85%; 
+        
+      }
+    
+      #carousel-container-main-about {
+        display: inline-block;
+        width: 100%; 
+      }  
+    
+      #carousel-container-about {
+        width: 35%;
+        border-style: double; 
+        border-color: #b1b1b1;  
+        margin-left: 7em;
+        margin-bottom: 8rem;
+        float: left; 
+        margin-right: 8em;
+        box-shadow: 3em 1em 16em 3em rgb(179, 179, 179);
+      }
+
+      #container-cards-about {
+        align-items: center;
+        padding: 5em;
+        margin-left: 8em;
+        width: 80%;
+      }
+    
+      #number1-about {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-style: double;
+      }
+    
+      .card-about {
+        position: relative;
+        display: flex;
+        margin-left: 6em;
+        flex-direction: column;
+        word-wrap: break-word;
+        background-color: #fff;
+        width: 150%;
+    }
+    
+    .card-about2 {
+      position: relative;
+      display: flex;
+      margin-left: 20em;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      width: 150%;
+    }
+    
+      .card-title-about {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    
+      .card-text-about {
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 0.6rem;
+      }
+    
+      #form-container {
+        padding:auto;
+        margin:auto;
+        text-align:centre;
+        width: 60%;
+        margin-top: 10%;
+        margin-bottom: 25%;
+       
+      }
+
+      #formAbout-text {
+        margin-left: 0em;
+      }
+
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+}
+.footerAbout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+.footerMain {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    body {
+      margin-bottom: 500px;
+    }
+    .footer {
+      height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+.container-footer {
+    margin-top: 24em;
+    margin-bottom: -2em;
+}
+
+   }
+
+ @media (min-width: 320px) and (max-width: 480px) { 
+
+    
+    .jumbotronAbout {
+        background-image: url('images/cover3_.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        background-position: center;
+        text-align: center;
+        margin-top: 4em;
+        color: rgb(255, 255, 255); 
+      }
+
+      .fa-umbrella {
+    color: rgb(255, 166, 0);
+    width: 2em;
+
+  }
+
+    .title-field-About {
+        color: #f0b30d;
+        font-size: 5em;
+        font-family: 'carrois gothic sc';
+        font-weight: bold;
+        padding-top: 1em;
+        padding-bottom: -1em;
+        margin-bottom: -0.3em;
+        
+      }
+      .title-field2-About {
+        color: #ffffff;
+        font-size: 0.7em;
+        font-family: 'carrois gothic sc';
+        padding-top: 2em;
+        padding-bottom: 9em;
+        margin-bottom: 2em;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+      }
+      #carousel-text-about {
+        text-align: center;
+        padding: 5em;
+        font-size: 0.6em;
+        font-family: 'carrois gothic sc';
+        width: 100%; 
+        
+      }
+    
+      #carousel-container-main-about {
+        display: inline-block;
+        width: 100%; 
+      }  
+    
+      #carousel-container-about {
+        width: 35%;
+        border-style: double; 
+        border-color: #b1b1b1;  
+        margin-left: 3em;
+        margin-bottom: 8rem;
+        float: left; 
+        margin-right: 3em;
+        box-shadow: 3em 1em 16em 3em rgb(179, 179, 179);
+      }
+
+      #container-cards-about {
+        align-items: center;
+        padding: 5em;
+        margin-left: 8em;
+        width: 80%;
+      }
+    
+      #number1-about {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-style: double;
+      }
+    
+      .card-about {
+        position: relative;
+        display: flex;
+        margin-left: 3em;
+        flex-direction: column;
+        word-wrap: break-word;
+        background-color: #fff;
+        width: 150%;
+    }
+    
+    .card-about2 {
+      position: relative;
+      display: flex;
+      margin-left: 10em;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      width: 150%;
+    }
+    
+      .card-title-about {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+    
+      .card-text-about {
+        text-align: center;
+        font-size: 0.7rem;
+        padding: 0.6rem;
+      }
+    
+
+      #form-container {
+        padding:auto;
+        margin:auto;
+        text-align:centre;
+        width: 60%;
+        margin-top: 10%;
+        margin-bottom: 25%;
+       
+      }
+
+      #formAbout-text {
+        margin-left: 0em;
+      }
+      
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+}
+.footerAbout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+.footerMain {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    body {
+      margin-bottom: 500px;
+    }
+    .footer {
+      height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+  }
+
+
+
+  
+  

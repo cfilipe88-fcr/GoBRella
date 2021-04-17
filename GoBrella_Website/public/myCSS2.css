@@ -1,0 +1,1789 @@
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media (min-width: 1024px)  {
+ 
+
+body {
+    position: relative;
+  }
+
+    .jumbotron {
+      background-image: url('images/field.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      max-width: 100%;
+      background-position: center;
+      text-align: center;
+      margin-top: 3.8em;
+      color: rgb(5, 5, 5);
+      font-weight: bold;  
+    }
+
+    #clubs {
+      text-align: center;
+      margin-top: 4em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: -2em;
+      border-style: double;
+      border-color: rgb(10, 70, 30);
+      width: 50%;
+      margin: auto;
+      padding: 1em;
+      font-size: 2em;
+    }
+    
+    #arrow-icon {
+      align-content: center;
+      color: rgb(10, 70, 30);
+      position: relative;
+      margin: auto;
+      width: 2%;
+      margin-top: 2em;
+      margin-bottom: -2.4em;
+    }
+
+    .fa-futbol {
+      color: rgb(255, 166, 0);
+    }
+
+    .title-description {
+      color: #ffffff;
+      
+    }
+
+    .title-field {
+      color: #f0b30d;
+      font-size: 4em;
+      font-family: 'carrois gothic sc';
+      
+    }
+
+    #container-cards {
+      margin: 7em 8em 5em 8em;
+    }
+
+    #vasco {
+      display: block;
+      margin-top: 15%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+    }
+
+    #fluminense {
+      display: block;
+      margin-bottom: -12%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 97%;
+    }
+
+    #botafogo {
+      display: block;
+      margin-top: 7%;
+      margin-bottom: -9%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+    }
+
+    #flamengo {
+      display: block;
+      margin-top: 15%;
+      margin-bottom: -9%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
+    .card-title {
+      text-align: center;
+    }
+
+    .card-text {
+      text-align: center;
+    }
+
+    #club-button {
+      margin-top: 1em;
+     position: relative;
+      display: block;
+    }
+
+    #stadiums-title {
+      text-align: center;
+      margin-top: 3em;
+      font-family: 'carrois gothic sc';
+      margin-bottom: 2em;
+      border-style: double;
+      border-color: rgb(0, 0, 0);
+      width: 50%;
+      margin: auto;
+      padding: 1em; 
+      font-size: 2em;
+    }
+
+    #arrow-icon2 {
+      align-content: center;
+      color: rgb(15, 77, 15);
+      position: relative;
+      margin: auto;
+      width: 2%;
+      margin-top: 3em;
+      margin-bottom:1em ;
+    }
+
+
+    #middle-container {
+      width: 80%;
+      margin: 3em 8em 7em 8em; 
+    }
+
+    #list-st {
+      list-style-type: none;
+    }
+
+    #stadium-list {
+      width: 25%;
+      height: 13%;
+      list-style-type: none;
+      border-radius: 1.3em;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+      margin-right: 1em;
+      border-style: solid;
+      border-width: thin;
+      margin-right: 2em;
+    }
+
+    #text-stadium {
+      margin: auto;
+      border-style: solid;
+      border-width: thin;
+      padding: 1em;
+      width: 70%;
+      border-radius: 1em;
+      background-color: white;
+      font-size: 90%;
+      color: rgb(0, 0, 0);
+      transition-duration: 0.5s; 
+    }
+
+    #text-stadium:hover {
+      background-color: #dab12d;
+      color: rgb(0, 0, 0);
+    }
+
+    .card {
+      position: relative;
+      display: flex;
+      padding: 6%;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      box-shadow: 0 0 5em 0 rgb(161, 163, 164)
+  }
+  
+  .media img {
+      width: 3.5em;
+      height: 3.5em;
+  }
+  
+    #footer {
+      background-color: #343A40;
+      padding-top: 6em;
+      padding-bottom: 6em;
+      margin-top: 5em;
+      margin-bottom: 2em;
+      text-align: center;
+      border-radius: 1em;
+      box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+    }
+
+    #footer_title {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 2.5em;
+    }
+
+    #footer-text {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+      font-size: 0.9em;
+    }
+    
+
+
+    #aboutUs {
+      background-color: #343A40;
+      padding-top: 6em;
+      padding-bottom: 6em;
+      margin-top: 5em;
+      margin-bottom: 2em;
+      text-align: center;
+      box-shadow: 3em 3em 16em 3em rgb(161, 163, 164);
+    }
+
+
+    #form-container {
+      padding:auto;
+      margin:auto;
+      text-align:centre;
+      width: 60%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+     
+    }
+
+    #about_title {
+      color: #ECB10D;
+      font-family: 'carrois gothic sc';
+    }
+
+    #about-text {
+      color: #e4cb87;
+      font-family: 'carrois gothic sc';
+      font-size: 0.9em;
+    }
+
+    .pb-cmnt-container {
+      font-family: Lato;
+      margin-top: 100px;
+  }
+
+  .pb-cmnt-textarea {
+      resize: none;
+      padding: 20px;
+      height: 130px;
+      width: 100%;
+      border: 1px solid #F2F2F2;
+  }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ 
+ 
+body {
+
+  position: relative;
+}
+
+  .jumbotron {
+    background-image: url('images/field.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center;
+    text-align: center;
+    margin-top:6em;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    font-size: 76%;
+    
+  }
+  
+  .title-field {
+    color: #f0b30d;
+    font-size: 280%;
+  }
+
+  #clubs {
+    text-align: center;
+    font-family: 'carrois gothic sc';
+    font-size: 1em;
+    border-style: double;
+    border-color: rgb(10, 70, 30);
+    width: auto;
+    margin: auto;
+    padding: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+  }
+  
+  #arrow-icon {
+    align-content: center;
+    color: rgb(10, 70, 30);
+    position: relative;
+    margin: auto;
+    width: 2%;
+    margin-top: 2em;
+    margin-bottom: -4.4em;
+  }
+
+  .fa-futbol {
+    color: rgb(255, 166, 0);
+  }
+
+  .title-description {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+
+  #container-cards {
+    margin: 7em 3em 3em 3em;
+  }
+
+  #vasco {
+    display: flex;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  #fluminense {
+    display: flex;
+    margin-bottom: -12%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+  }
+
+  #botafogo {
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: -9%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  #flamengo {
+    display: flex;
+    margin-top: 15%;
+    margin-bottom: -9%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .card-title {
+    text-align: center;
+    font-size: 90%;
+  }
+
+  .card-text {
+    text-align: center;
+    font-size: 70%;
+  }
+
+  #club-button {
+    margin-top: 1em;
+   position: relative;
+    display: block;
+    font-size: 70%;
+  }
+
+  #stadiums-title {
+    text-align: center;
+    margin-top: 3em;
+    font-family: 'carrois gothic sc';
+    margin-bottom: 2em;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;
+    padding: 1em; 
+  }
+
+  #arrow-icon2 {
+    align-content: center;
+    color: rgb(15, 77, 15);
+    position: relative;
+    margin: auto;
+    width: 2%;
+    margin-top: 3em;
+    margin-bottom:-1em ;
+  }
+
+
+  #middle-container {
+    width: auto;
+    margin: 3em 8em 7em 8em; 
+    font-size: 65%;
+  }
+
+  #list-st {
+    list-style-type: none;
+  }
+
+  #stadium-list {
+    width: 25%;
+    height: 13%;
+    list-style-type: none;
+    border-radius: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    border-style: solid;
+    border-width: thin;
+    margin-right: 2em;
+  }
+
+  #text-stadium {
+    margin: auto;
+    border-style: solid;
+    border-width: thin;
+    padding: 1em;
+    width: 70%;
+    border-radius: 1em;
+    background-color: white;
+    font-size: 90%;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s; 
+  }
+
+  #text-stadium:hover {
+    background-color: #dab12d;
+    color: rgb(0, 0, 0);
+  }
+
+  .card {
+      position: relative;
+      display: flex;
+      padding: 6%;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      box-shadow: 0 0 5em 0 rgb(161, 163, 164);
+      font-size: 70%;    
+}
+
+.media img {
+    width: 3.5em;
+    height: 3.5em;
+}
+
+  #footer {
+    background-color: #343A40;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+  }
+
+  #footer_title {
+    color: #ECB10D;
+    font-family: 'carrois gothic sc';
+    font-size: 1.8em;
+  }
+
+  #footer-text {
+    color: #ECB10D;
+    font-family: 'carrois gothic sc';
+    font-size: 0.8em;
+  }
+  
+  #form-footer {
+    margin-left: 10em;
+  }
+
+  #aboutUs {
+    background-color: #343A40;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+    box-shadow: 3em 3em 16em 3em rgb(161, 163, 164);
+  }
+
+  #form-container {
+    padding:auto;
+    margin:auto;
+    text-align:centre;
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+  }
+
+  #about_title {
+    color: #ECB10D;
+    font-family: 'carrois gothic sc';
+  }
+
+  #about-text {
+    color: #e4cb87;
+    font-family: 'carrois gothic sc';
+    font-size: 0.9em;
+  }
+
+  .pb-cmnt-container {
+    font-family: Lato;
+    margin-top: 100px;
+}
+
+.pb-cmnt-textarea {
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+}
+
+  
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles
+  ##Screen = B/w 414px to 767px
+*/
+
+@media (min-width: 414px) and (max-width: 767px) {
+  
+
+  
+body {
+
+  position: relative;
+}
+
+  .jumbotron {
+    background-image: url('images/field.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: auto;
+    background-position: center;
+    text-align: center;
+    margin-top:13em;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    font-size: 76%;
+    
+  }
+  
+  .title-field {
+    color: #f0b30d;
+    font-size: 280%;
+  }
+
+  #clubs {
+    text-align: center;
+    font-family: 'carrois gothic sc';
+    font-size: 1em;
+    border-style: double;
+    border-color: rgb(10, 70, 30);
+    width: auto;
+    margin: auto;
+    padding: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+  }
+  
+
+  #arrow-icon {
+    align-content: center;
+    color: rgb(10, 70, 30);
+    position: relative;
+    margin: auto;
+    width: 2%;
+    margin-top: 2em;
+    margin-bottom: -4.4em;
+  }
+
+  .fa-futbol {
+    color: rgb(255, 166, 0);
+  }
+
+  .title-description {
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+
+  #container-cards {
+    margin: 7em 1em 3em 1em;
+    
+  }
+
+  #vasco {
+    display: flex;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  #fluminense {
+    display: flex;
+    margin-bottom: -12%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+  }
+
+  #botafogo {
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: -9%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  #flamengo {
+    display: flex;
+    margin-top: 15%;
+    margin-bottom: -9%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .card-title {
+    text-align: center;
+    font-size: 80%;
+    word-wrap: normal;
+  }
+
+  .card-text {
+    text-align: center;
+    font-size: 50%;
+    word-wrap: normal;
+    width: auto;   
+  }
+
+  #club-button {
+    margin-top: 1em;
+    position: relative;
+    display: block;
+    font-size: 20%;
+    word-wrap: normal;
+    width: auto;    
+  }
+
+  #stadiums-title {
+    text-align: center;
+    margin-top: 3em;
+    font-family: 'carrois gothic sc';
+    margin-bottom: 2em;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;
+    padding: 1em; 
+  }
+
+  #arrow-icon2 {
+    align-content: center;
+    color: rgb(15, 77, 15);
+    position: relative;
+    margin: auto;
+    width: 2%;
+    margin-top: 3em;
+    margin-bottom:-1em ;
+  }
+
+
+  #middle-container {
+    width: auto;
+    margin: 3em 1em 7em 1em; 
+    font-size: 65%;
+  }
+
+  #list-st {
+    list-style-type: none;
+  }
+
+  #stadium-list {
+    width: 40%;
+    list-style-type: none;
+    border-radius: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-right: 1em;
+    border-style: solid;
+    border-width: thin;
+    margin-right: 2em;
+  }
+
+  #text-stadium {
+    margin: auto;
+    border-style: solid;
+    border-width: thin;
+    padding: 1em;
+    width: 53%;
+    border-radius: 1em;
+    background-color: white;
+    font-size: 70%;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;    
+  }
+
+  #text-stadium:hover {
+    background-color: #dab12d;
+    color: rgb(0, 0, 0);
+  }
+
+  .card {
+      position: relative;
+      display: flex;
+      padding: 6%;
+      flex-direction: column;
+      word-wrap: break-word;
+      background-color: #fff;
+      box-shadow: 0 0 5em 0 rgb(161, 163, 164);
+      font-size: 70%; 
+}
+
+.media img {
+    width: 3.5em;
+    height: 3.5em;
+}
+
+  #footer {
+    background-color: #343A40;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+  }
+
+  #footer_title {
+    color: #ECB10D;
+    font-family: 'carrois gothic sc';
+    font-size: 1.8em;
+  }
+
+  #footer-text {
+    color: #ECB10D;
+    font-family: 'carrois gothic sc';
+    font-size: 0.5em;
+  }
+  
+  #form-footer {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+}
+
+  /* About us page */
+
+
+   /* Large devices (laptops/desktops, 992px and up) */
+   @media (min-width: 1024px)  {
+
+  #aboutUs {
+    background-color: #343A40;
+    padding-bottom: 7em;
+    margin-top: 4.4em;
+    margin-bottom: 2em;
+    text-align: center;
+    box-shadow: 6em 3em 6em 3em rgb(188, 189, 189);
+  }
+
+  #form-container {
+    padding:auto;
+    margin:auto;
+    text-align:centre;
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #about_title {
+    color: #ECB10D;
+    font-family: 'carrois gothic sc';
+    font-size: 6em;
+  }
+
+  #about-text {
+    color: #e4cb87;
+    font-family: 'carrois gothic sc';
+    font-size: 0.9em;
+  }
+
+  #form-title {
+    font-size: 2em;
+  }
+
+  #form-text {
+    font-size: 1em;
+    color: #ffbb00;
+    font-weight: bold;
+  }
+
+
+  .pb-cmnt-container {
+    font-family: Lato;
+    margin-top: 5em;
+    
+}
+
+  .pb-cmnt-textarea {
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #bdbdbd;
+}
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+  #aboutUs {
+    background-color: #343A40;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    margin-top: 4.4em;
+    margin-bottom: 2em;
+    text-align: center;
+    box-shadow: 2em 1em 5em 3em rgb(202, 201, 201);
+  }
+
+  #form-container {
+    padding:auto;
+    margin:auto;
+    text-align:centre;
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #about_title {
+    color: #ECB10D;
+    font-family: 'carrois gothic sc';
+    font-size: 4em;
+  }
+
+  #about-text {
+    color: #e4cb87;
+    font-family: 'carrois gothic sc';
+    font-size: 0.9em;
+  }
+
+  #form-title {
+    font-size: 2em;
+    margin-bottom: 2em;
+  }
+
+  #form-text {
+    font-size: 1em;
+    color: #ffbb00;
+    font-weight: bold;
+  }
+
+
+  .pb-cmnt-container {
+    font-family: Lato;
+    margin-top: 5em;
+    
+}
+
+  .pb-cmnt-textarea {
+    resize: none;
+    padding: 2em;
+    height: 8em;
+    width: 25em;
+    border: 0.01em solid #bdbdbd;
+}
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles
+  ##Screen = 414px to 767px
+*/
+
+@media (min-width: 414px) and (max-width: 767px) {
+
+
+  #aboutUs {
+    background-color: #343A40;
+    margin-right: -2em;
+    padding-top: 8em;
+    padding-bottom: 6em;
+    margin-top: 4.5em;
+    margin-bottom: 2em;
+    text-align: center;
+    box-shadow: 2em 1em 5em 3em rgb(202, 201, 201);
+  }
+
+  #about_title {
+    color: #ECB10D;
+    font-family: 'carrois gothic sc';
+    font-size: 3em;
+  }
+
+  #about-text {
+    color: #e4cb87;
+    font-family: 'carrois gothic sc';
+    font-size: 0.6em;
+  }
+
+  #form-container {
+    padding:auto;
+    margin:auto;
+    text-align:centre;
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #form-title {
+    font-size: 1.4em;
+    margin-bottom: 2em;
+  }
+
+  #form-text {
+    font-size: 1em;
+    color: #ffbb00;
+  }
+
+  .pb-cmnt-container {
+    font-family: Lato;
+    margin-top: 5em;    
+}
+
+  .pb-cmnt-textarea {
+    resize: none;
+    padding: 2em;
+    height: 8em;
+    width: 25em;
+    border: 0.01em solid #bdbdbd;
+    margin: auto;
+}
+
+}
+
+
+
+/* Video page */
+/* Large devices (laptops/desktops, 992px and up) */
+   @media (min-width: 1024px)  { 
+
+    #videos {
+      background-color: #e4af00;
+      padding-top: 5em;
+      padding-bottom: 7em;
+      margin-top: 4.4em;
+      margin-bottom: 2em;
+      text-align: center;
+      box-shadow: 6em 3em 6em 3em rgb(188, 189, 189);
+    }
+  
+    #videos_title {
+      color: #3f3e3e;
+      font-family: 'carrois gothic sc';
+      font-size: 6em;
+    }
+  
+    #videos-text {
+      color: #525150;
+      font-family: 'carrois gothic sc';
+      font-size: 1.1em;
+    }
+
+    #video-container {
+      width: 50%;
+      margin-left: 5em;
+      margin-top: 5em;
+      padding:auto;
+      margin:auto;
+      text-align:centre;
+    }
+
+    #maraca-video {
+      margin-top: 1em;
+      margin-bottom: 3em;
+      border-style: double;
+      border-width: 0.8em;
+      border-color: #464646;
+      width: 560; 
+      height: 315;
+    }
+
+    #vasco-video {
+      margin-top: 1em;
+      margin-bottom: 3em;
+      border-style: double;
+      border-width: 0.8em;
+      border-color: #464646;
+      width: 560; 
+      height: 315;
+    }
+
+    #flamengo-video {
+      margin-top: 1em;
+      margin-bottom: 3em;
+      border-style: double;
+      border-width: 0.8em;
+      border-color: #464646;
+    }
+
+    #botafogo-video {
+      margin-top: 1em;
+      margin-bottom: 3em;
+      border-style: double;
+      border-width: 0.8em;
+      border-color: #464646;
+    }
+
+    #fluminense-video {
+      margin-top: 1em;
+      margin-bottom: 3em;
+      border-style: double;
+      border-width: 0.8em;
+      border-color: #464646;
+    }
+
+    #video-desc {
+      text-align: center;
+      font-size: 1.3em;
+    }
+
+    #footer-video {
+      background-color:   #e4af00;
+      padding-top: 2em;
+      padding-bottom:2em;
+      margin-top: 5em;
+      margin: auto;
+      text-align: center;
+      box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+    }
+  
+    #footer_title-video {
+      color: #343A40;
+      font-family: 'carrois gothic sc';
+      font-size: 1em;
+    }
+    
+    #email a:hover {
+      color: #464646;
+    }
+    
+    #email a {
+    color: #e4ca9b;
+    text-decoration: none;
+    font-size: 70%;
+    }
+   
+    
+    }
+    
+    
+/* Video page */
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  #videos {
+    background-color: #e4af00;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    margin-top: 4.4em;
+    margin-bottom: 2em;
+    text-align: center;
+    box-shadow: 6em 3em 6em 3em rgb(188, 189, 189);
+  }
+
+  #videos_title {
+    color: #3f3e3e;
+    font-family: 'carrois gothic sc';
+    font-size: 5em;
+  }
+
+  #videos-text {
+    color: #525150;
+    font-family: 'carrois gothic sc';
+    font-size: 0.9em;
+  }
+
+  #video-container {
+    width: 60%;
+    margin-left: 5em;
+    margin-top: 5em;
+    padding:auto;
+    margin:auto;
+    text-align:centre;
+    font-size: 0.7em;
+  }
+
+  #maraca-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+    width: 560; 
+    height: 315;
+  }
+
+  #vasco-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+    width: 560; 
+    height: 315;
+  }
+
+  #flamengo-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+  }
+
+  #botafogo-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+  }
+
+  #fluminense-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+  }
+
+  #video-desc {
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  #footer-video {
+    background-color:#e4af00;
+    padding-top: 2em;
+    padding-bottom:0.8em;
+    margin-top: 5em;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+  }
+
+  #footer_title-video {
+    color: #343A40;
+    font-family: 'carrois gothic sc';
+    font-size: 1em;
+  }
+  
+  #email a:hover {
+    color: #464646;
+  }
+  
+  #email a {
+  color: #e4ca9b;
+  text-decoration: none;
+  font-size: 70%;
+  }
+
+}
+
+
+
+
+/* Video page */
+/* 
+  ##Device = Low Resolution Tablets, Mobiles
+  ##Screen = 414px to 767px
+*/
+
+@media (min-width: 414px) and (max-width: 767px) {
+  #videos {
+    background-color: #e4af00;
+    padding-top: 8em;
+    padding-bottom: 1em;
+    margin-top: 4.4em;
+    margin-bottom: 2em;
+    text-align: center;
+    box-shadow: 6em 3em 6em 3em rgb(188, 189, 189);
+  }
+
+  #videos_title {
+    color: #3f3e3e;
+    font-family: 'carrois gothic sc';
+    font-size: 5em;
+  }
+
+  #videos-text {
+    color: #525150;
+    font-family: 'carrois gothic sc';
+    font-size: 0.9em;
+  }
+
+  #video-container {
+    width: 70%;
+    margin-left: 5em;
+    margin-top: 5em;
+    padding:auto;
+    margin:auto;
+    text-align:centre;
+    font-size: 0.7em;
+  }
+
+  #maraca-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+    width: 560; 
+    height: 315;
+  }
+
+  #vasco-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+    width: 560; 
+    height: 315;
+  }
+
+  #flamengo-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+  }
+
+  #botafogo-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+  }
+
+  #fluminense-video {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-style: double;
+    border-width: 0.8em;
+    border-color: #464646;
+  }
+
+  #video-desc {
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  #footer-video {
+    background-color:#e4af00;
+    padding-top: 1em;
+    padding-bottom:0.5em;
+    margin-top: 5em;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+  }
+
+  #footer_title-video {
+    color: #343A40;
+    font-family: 'carrois gothic sc';
+    font-size: 1em;
+    margin-bottom: -0.5em;
+  }
+  
+  #email a:hover {
+    color: #464646;
+  }
+  
+  #email a {
+  color: #e4ca9b;
+  text-decoration: none;
+  font-size: 70%;
+  }
+}
+
+
+
+/* Image page */
+/* Large devices (laptops/desktops, 992px and up) */
+   @media (min-width: 1024px)  { 
+
+    #image {
+      background-color: #e4af00;
+      padding-top: 5em;
+      padding-bottom: 7em;
+      margin-top: 4.4em;
+      margin-bottom: 2em;
+      text-align: center;
+      box-shadow: 6em 3em 6em 3em rgb(188, 189, 189);
+    }
+  
+    #image_title {
+      color: #3f3e3e;
+      font-family: 'carrois gothic sc';
+      font-size: 6em;
+    }
+  
+    #image-text {
+      color: #525150;
+      font-family: 'carrois gothic sc';
+      font-size: 1.1em;
+    }
+
+    #image-container {
+      margin: auto;
+      margin-left: auto;
+      width: 91%;
+      align-content: center;
+      text-align: center;
+      vertical-align: middle;  
+      margin-bottom: 5em;     
+    }
+
+    .gallery {
+      width: 50%;
+      align-content: center;
+    }
+    div.gallery {
+      margin: 0.8em;
+      border: 0.1em solid #ccc;
+      float: left;
+      width: 30%;
+      box-shadow: 1em 1em 3em 0.1em #6e6e6e;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 1em;
+      text-align: center;
+    }
+
+    #container1 {
+      display: inline-block;
+      position:relative;
+      padding: 2em;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 1em;
+      text-align:center;
+    }
+
+    #container2 {
+      display: inline-block;
+      position:relative;
+      padding: 1em;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      text-align:center;
+    }
+
+    #container3 {
+      display: inline-block;
+      position:relative;
+      padding: 2em;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      text-align:center;
+    }
+
+    #container4 {
+      display: inline-block;
+      position:relative;
+      padding: 2em;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      text-align:center;
+    }
+
+    #container5 {
+      display: inline-block;
+      position:relative;
+      padding: 2em;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      text-align:center;
+    }
+
+    #form-image {
+      width: 50%;
+      align-content: center;
+      text-align: center;
+      display: inline;
+      padding-bottom: 2em;
+    }
+
+    #send-image {
+      font-size: 1.5em;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+    }
+
+    #footer-image {
+      background-color:#e4af00;
+      padding-top: 1em;
+      padding-bottom:0.5em;
+      margin-top: 5em;
+      margin: auto;
+      text-align: center;
+      box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+    }
+  
+    #footer_title-image {
+      color: #343A40;
+      font-family: 'carrois gothic sc';
+      font-size: 1em;
+      margin-bottom: -0.5em;
+      margin-top: 3em;
+    }
+    
+    
+  }
+
+
+
+/* Image page */
+/* 
+ ##Device = Tablets, Ipads
+ ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  #image {
+    background-color: #e4af00;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    margin-top: 4.4em;
+    margin-bottom: 2em;
+    text-align: center;
+    box-shadow: 6em 3em 6em 3em rgb(188, 189, 189);
+  }
+
+  #image_title {
+    color: #3f3e3e;
+    font-family: 'carrois gothic sc';
+    font-size: 5em;
+  }
+
+  #image-text {
+    color: #525150;
+    font-family: 'carrois gothic sc';
+    font-size: 0.9em;
+  }
+
+  #image-container {
+    margin: auto;
+    margin-left: auto;
+    width: 90%;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;  
+    margin-bottom: 5em;     
+  }
+
+  .gallery {
+    width: 50%;
+    align-content: center;
+  }
+
+  div.gallery {
+    margin: 0.8em;
+    border: 0.1em solid #ccc;
+    float: left;
+    width: 80%;
+    margin-left: 4em;
+    box-shadow: 0.1em 1em 3em 0.1em #6e6e6e;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  div.desc {
+    padding: 1em;
+    text-align: center;
+  }
+
+  #container1 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1em;
+    text-align:center;
+  }
+
+  #container2 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    text-align:center;
+  }
+
+  #container3 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    text-align:center;
+  }
+
+  #container4 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    text-align:center;
+  }
+
+  #container5 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    text-align:center;
+  }
+
+  #form-image {
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    display: inline;
+    padding-bottom: 2em;
+  }
+
+  #send-image {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  #footer-image {
+    background-color:#e4af00;
+    padding-top: 1em;
+    padding-bottom:0.5em;
+    margin-top: 5em;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+  }
+
+  #footer_title-image {
+    color: #343A40;
+    font-family: 'carrois gothic sc';
+    font-size: 1em;
+    margin-bottom: -0.5em;
+    margin-top: 3em;
+  }
+
+
+}
+
+
+
+
+/* Image page */
+/* 
+ ##Device = Low Resolution Tablets, Mobiles
+ ##Screen = 414px to 767px
+*/
+
+@media (min-width: 414px) and (max-width: 767px) {
+
+
+  #image {
+    background-color: #e4af00;
+    padding-top: 4.5em;
+    padding-bottom: 3em;
+    margin-top: 10em;
+    margin-bottom: 2em;
+    text-align: center;
+    box-shadow: 6em 3em 6em 3em rgb(188, 189, 189);
+  }
+
+  #image_title {
+    color: #3f3e3e;
+    font-family: 'carrois gothic sc';
+    font-size: 4em;
+  }
+
+  #image-text {
+    color: #525150;
+    font-family: 'carrois gothic sc';
+    font-size: 0.7em;
+  }
+
+  #image-container {
+    margin: auto;
+    margin-left: auto;
+    width: 90%;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;  
+    margin-bottom: 5em;  
+  }
+
+  .gallery {
+    width: 50%;
+    align-content: center;
+  }
+
+  div.gallery {
+    margin: 0.8em;
+    border: 0.1em solid #ccc;
+    float: left;
+    width: 80%;
+    margin-left: 3em;
+    box-shadow: 0.1em 1em 3em 0.1em #6e6e6e;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto; 
+  }
+  
+  div.desc {
+    padding: 1em;
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  #container1 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1em;
+    text-align:center;
+  }
+
+  #container2 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    text-align:center;
+  }
+
+  #container3 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    text-align:center;
+  }
+
+  #container4 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    text-align:center;
+  }
+
+  #container5 {
+    display: inline-block;
+    position:relative;
+    padding: 1em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    text-align:center;
+  }
+
+  #form-image {
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    display: inline;
+    padding-bottom: 2em;
+  }
+
+  #send-image {
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 0.8em;  
+  }
+
+  #footer-image {
+    background-color:#e4af00;
+    padding-top: 1em;
+    padding-bottom:0.5em;
+    margin-top: 5em;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 6em 0 rgb(161, 163, 164)
+  }
+
+  #footer_title-image {
+    color: #343A40;
+    font-family: 'carrois gothic sc';
+    font-size: 1em;
+    margin-bottom: -0.5em;
+    margin-top: 3em;
+  }
+
+}
